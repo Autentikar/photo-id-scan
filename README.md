@@ -1,3 +1,3 @@
 # AutentikarPhotoIDScan
 
-## version 1.0.0 :rocket:
+## version 1.0.1 :rocket:
