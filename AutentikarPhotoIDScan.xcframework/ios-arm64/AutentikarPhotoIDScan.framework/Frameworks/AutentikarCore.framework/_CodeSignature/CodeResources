@@ -6,23 +6,23 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		PlA39Rat5e7D1DpxjCrhv+1X/qs=
+		eMsuJezSSE7EdHFJVwa2Q3KP40o=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+1WbRWz6BuEmBEYEdXfRd6g7sAQ=
+		T4m/PGuZ6dLBZ/G8MoPCGWIswug=
 		</data>
-		<key>Rubik-Light.ttf</key>
+		<key>PlusJakartaSans-Light.ttf</key>
 		<data>
-		IsbkWtLgUsVrmqc/52jf/gTp1K8=
+		iLAQJ+TUexyw9Ob7roiN3IGGb3g=
 		</data>
-		<key>Rubik-Medium.ttf</key>
+		<key>PlusJakartaSans-Regular.ttf</key>
 		<data>
-		1zTBSVh8EtkIPAO8kACchLUq7Hg=
+		6gfTPyP7bEhWpkLQNcRj3Jmn+Io=
 		</data>
-		<key>Rubik-Regular.ttf</key>
+		<key>PlusJakartaSans-SemiBold.ttf</key>
 		<data>
-		PDzBYx/TE1MbxLRNy2bnxB5rzwc=
+		V2zPEL4RZS/DCfNoKjJ6mIR8WW4=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -49,28 +49,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			42JOWynP5RBZbDfYL34j4IHcvKmN0fYzE11tDESazy8=
+			i0W1rnEgITPkYnF6gn4uaVMG8kTNJeByBCI7u5S0Mp4=
 			</data>
 		</dict>
-		<key>Rubik-Light.ttf</key>
+		<key>PlusJakartaSans-Light.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V8qlAAn6flNXd9+hKU6BdfmRCFa0Pmn9Sh8NgwyXU2I=
+			5QXla2amcqqeUTRwxC5SvcMpUCmd5bdRMvkhn0gqAXk=
 			</data>
 		</dict>
-		<key>Rubik-Medium.ttf</key>
+		<key>PlusJakartaSans-Regular.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zkDSfGyQuZAilRDEYRXshSI3J24aoJzev/xq4IWx0eI=
+			ym75BwKNHRgIhwln17fdz2jA8zVS0V1/DGx9aul+dXE=
 			</data>
 		</dict>
-		<key>Rubik-Regular.ttf</key>
+		<key>PlusJakartaSans-SemiBold.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XTX/cC7AfqTXmJ+Lu3YGUbfeFwkinJH5B1it1L/lg6M=
+			u6odIc5IOQcFR7HMBtXbKlb1IKvpAnjZcWZbP23KaFE=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
