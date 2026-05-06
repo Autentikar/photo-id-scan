@@ -177,38 +177,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -219,10 +191,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -233,10 +219,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -313,13 +313,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "AutentikarPhotoIDScan"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -331,6 +324,16 @@
         "printedName": "Vision",
         "declKind": "Import",
         "moduleName": "AutentikarPhotoIDScan"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "AutentikarPhotoIDScan",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -671,38 +674,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -713,10 +688,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -727,10 +716,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -1344,6 +1347,94 @@
           },
           {
             "kind": "Var",
+            "name": "takePhotoButton",
+            "printedName": "takePhotoButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TakePhotoButton",
+                "printedName": "AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.TakePhotoButton",
+                "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AutentikarPhotoIDScan@objc(cs)AutentikarPhotoIDScanCustomization(py)takePhotoButton",
+            "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04takeB6ButtonAC04TakebF0Cvp",
+            "moduleName": "AutentikarPhotoIDScan",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TakePhotoButton",
+                    "printedName": "AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.TakePhotoButton",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AutentikarPhotoIDScan@objc(cs)AutentikarPhotoIDScanCustomization(im)takePhotoButton",
+                "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04takeB6ButtonAC04TakebF0Cvg",
+                "moduleName": "AutentikarPhotoIDScan",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TakePhotoButton",
+                    "printedName": "AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.TakePhotoButton",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AutentikarPhotoIDScan@objc(cs)AutentikarPhotoIDScanCustomization(im)setTakePhotoButton:",
+                "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04takeB6ButtonAC04TakebF0Cvs",
+                "moduleName": "AutentikarPhotoIDScan",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04takeB6ButtonAC04TakebF0CvM",
+                "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04takeB6ButtonAC04TakebF0CvM",
+                "moduleName": "AutentikarPhotoIDScan",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "closeIconColor",
             "printedName": "closeIconColor",
             "children": [
@@ -1613,94 +1704,6 @@
               },
               {
                 "kind": "Var",
-                "name": "infoBackgroundColor",
-                "printedName": "infoBackgroundColor",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC12CameraScreenC19infoBackgroundColorSo7UIColorCvp",
-                "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC12CameraScreenC19infoBackgroundColorSo7UIColorCvp",
-                "moduleName": "AutentikarPhotoIDScan",
-                "declAttributes": [
-                  "AccessControl",
-                  "ObjC"
-                ],
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIColor",
-                        "printedName": "UIKit.UIColor",
-                        "usr": "c:objc(cs)UIColor"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC12CameraScreenC19infoBackgroundColorSo7UIColorCvg",
-                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC12CameraScreenC19infoBackgroundColorSo7UIColorCvg",
-                    "moduleName": "AutentikarPhotoIDScan",
-                    "declAttributes": [
-                      "ObjC"
-                    ],
-                    "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIColor",
-                        "printedName": "UIKit.UIColor",
-                        "usr": "c:objc(cs)UIColor"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC12CameraScreenC19infoBackgroundColorSo7UIColorCvs",
-                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC12CameraScreenC19infoBackgroundColorSo7UIColorCvs",
-                    "moduleName": "AutentikarPhotoIDScan",
-                    "declAttributes": [
-                      "ObjC"
-                    ],
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC12CameraScreenC19infoBackgroundColorSo7UIColorCvM",
-                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC12CameraScreenC19infoBackgroundColorSo7UIColorCvM",
-                    "moduleName": "AutentikarPhotoIDScan",
-                    "implicit": true,
-                    "accessorKind": "_modify"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
                 "name": "infoTextColor",
                 "printedName": "infoTextColor",
                 "children": [
@@ -1876,6 +1879,94 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "statusHintText",
+                "printedName": "statusHintText",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Text",
+                    "printedName": "AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.Text",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC4TextC"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC12CameraScreenC14statusHintTextAC0I0Cvp",
+                "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC12CameraScreenC14statusHintTextAC0I0Cvp",
+                "moduleName": "AutentikarPhotoIDScan",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Text",
+                        "printedName": "AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.Text",
+                        "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC4TextC"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC12CameraScreenC14statusHintTextAC0I0Cvg",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC12CameraScreenC14statusHintTextAC0I0Cvg",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Text",
+                        "printedName": "AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.Text",
+                        "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC4TextC"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC12CameraScreenC14statusHintTextAC0I0Cvs",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC12CameraScreenC14statusHintTextAC0I0Cvs",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC12CameraScreenC14statusHintTextAC0I0CvM",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC12CameraScreenC14statusHintTextAC0I0CvM",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init()",
@@ -1918,38 +2009,10 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CVarArg",
-                "printedName": "CVarArg",
-                "usr": "s:s7CVarArgP",
-                "mangledName": "$ss7CVarArgP"
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
               },
               {
                 "kind": "Conformance",
@@ -1960,10 +2023,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "_KeyValueCodingAndObserving",
-                "printedName": "_KeyValueCodingAndObserving",
-                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
               },
               {
                 "kind": "Conformance",
@@ -1974,10 +2051,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "CustomDebugStringConvertible",
-                "printedName": "CustomDebugStringConvertible",
-                "usr": "s:s28CustomDebugStringConvertibleP",
-                "mangledName": "$ss28CustomDebugStringConvertibleP"
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
               }
             ]
           },
@@ -2469,38 +2560,10 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CVarArg",
-                "printedName": "CVarArg",
-                "usr": "s:s7CVarArgP",
-                "mangledName": "$ss7CVarArgP"
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
               },
               {
                 "kind": "Conformance",
@@ -2511,10 +2574,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "_KeyValueCodingAndObserving",
-                "printedName": "_KeyValueCodingAndObserving",
-                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
               },
               {
                 "kind": "Conformance",
@@ -2525,10 +2602,927 @@
               },
               {
                 "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "TakePhotoButton",
+            "printedName": "TakePhotoButton",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "borderColor",
+                "printedName": "borderColor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGColor",
+                    "printedName": "CoreGraphics.CGColor",
+                    "usr": "c:@T@CGColorRef"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11borderColorSo10CGColorRefavp",
+                "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11borderColorSo10CGColorRefavp",
+                "moduleName": "AutentikarPhotoIDScan",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGColor",
+                        "printedName": "CoreGraphics.CGColor",
+                        "usr": "c:@T@CGColorRef"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11borderColorSo10CGColorRefavg",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11borderColorSo10CGColorRefavg",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGColor",
+                        "printedName": "CoreGraphics.CGColor",
+                        "usr": "c:@T@CGColorRef"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11borderColorSo10CGColorRefavs",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11borderColorSo10CGColorRefavs",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11borderColorSo10CGColorRefavM",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11borderColorSo10CGColorRefavM",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "cornerRadius",
+                "printedName": "cornerRadius",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12cornerRadius14CoreFoundation7CGFloatVvp",
+                "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12cornerRadius12CoreGraphics7CGFloatVvp",
+                "moduleName": "AutentikarPhotoIDScan",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12cornerRadius14CoreFoundation7CGFloatVvg",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12cornerRadius12CoreGraphics7CGFloatVvg",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12cornerRadius14CoreFoundation7CGFloatVvs",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12cornerRadius12CoreGraphics7CGFloatVvs",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12cornerRadius14CoreFoundation7CGFloatVvM",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12cornerRadius12CoreGraphics7CGFloatVvM",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "borderWidth",
+                "printedName": "borderWidth",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11borderWidth14CoreFoundation7CGFloatVvp",
+                "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11borderWidth12CoreGraphics7CGFloatVvp",
+                "moduleName": "AutentikarPhotoIDScan",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11borderWidth14CoreFoundation7CGFloatVvg",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11borderWidth12CoreGraphics7CGFloatVvg",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11borderWidth14CoreFoundation7CGFloatVvs",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11borderWidth12CoreGraphics7CGFloatVvs",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11borderWidth14CoreFoundation7CGFloatVvM",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11borderWidth12CoreGraphics7CGFloatVvM",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "backgroundColor",
+                "printedName": "backgroundColor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC15backgroundColorSo7UIColorCvp",
+                "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC15backgroundColorSo7UIColorCvp",
+                "moduleName": "AutentikarPhotoIDScan",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC15backgroundColorSo7UIColorCvg",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC15backgroundColorSo7UIColorCvg",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC15backgroundColorSo7UIColorCvs",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC15backgroundColorSo7UIColorCvs",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC15backgroundColorSo7UIColorCvM",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC15backgroundColorSo7UIColorCvM",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "shadowColor",
+                "printedName": "shadowColor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGColor",
+                    "printedName": "CoreGraphics.CGColor",
+                    "usr": "c:@T@CGColorRef"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11shadowColorSo10CGColorRefavp",
+                "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11shadowColorSo10CGColorRefavp",
+                "moduleName": "AutentikarPhotoIDScan",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGColor",
+                        "printedName": "CoreGraphics.CGColor",
+                        "usr": "c:@T@CGColorRef"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11shadowColorSo10CGColorRefavg",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11shadowColorSo10CGColorRefavg",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGColor",
+                        "printedName": "CoreGraphics.CGColor",
+                        "usr": "c:@T@CGColorRef"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11shadowColorSo10CGColorRefavs",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11shadowColorSo10CGColorRefavs",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11shadowColorSo10CGColorRefavM",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC11shadowColorSo10CGColorRefavM",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "shadowOpacity",
+                "printedName": "shadowOpacity",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC13shadowOpacitySfvp",
+                "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC13shadowOpacitySfvp",
+                "moduleName": "AutentikarPhotoIDScan",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC13shadowOpacitySfvg",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC13shadowOpacitySfvg",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC13shadowOpacitySfvs",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC13shadowOpacitySfvs",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC13shadowOpacitySfvM",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC13shadowOpacitySfvM",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "shadowOffset",
+                "printedName": "shadowOffset",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12shadowOffsetSo6CGSizeVvp",
+                "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12shadowOffsetSo6CGSizeVvp",
+                "moduleName": "AutentikarPhotoIDScan",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGSize",
+                        "printedName": "CoreFoundation.CGSize",
+                        "usr": "c:@S@CGSize"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12shadowOffsetSo6CGSizeVvg",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12shadowOffsetSo6CGSizeVvg",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGSize",
+                        "printedName": "CoreFoundation.CGSize",
+                        "usr": "c:@S@CGSize"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12shadowOffsetSo6CGSizeVvs",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12shadowOffsetSo6CGSizeVvs",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12shadowOffsetSo6CGSizeVvM",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12shadowOffsetSo6CGSizeVvM",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "shadowRadius",
+                "printedName": "shadowRadius",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12shadowRadius14CoreFoundation7CGFloatVvp",
+                "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12shadowRadius12CoreGraphics7CGFloatVvp",
+                "moduleName": "AutentikarPhotoIDScan",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12shadowRadius14CoreFoundation7CGFloatVvg",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12shadowRadius12CoreGraphics7CGFloatVvg",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12shadowRadius14CoreFoundation7CGFloatVvs",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12shadowRadius12CoreGraphics7CGFloatVvs",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12shadowRadius14CoreFoundation7CGFloatVvM",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC12shadowRadius12CoreGraphics7CGFloatVvM",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "tintColor",
+                "printedName": "tintColor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC9tintColorSo7UIColorCvp",
+                "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC9tintColorSo7UIColorCvp",
+                "moduleName": "AutentikarPhotoIDScan",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC9tintColorSo7UIColorCvg",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC9tintColorSo7UIColorCvg",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC9tintColorSo7UIColorCvs",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC9tintColorSo7UIColorCvs",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC9tintColorSo7UIColorCvM",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC9tintColorSo7UIColorCvM",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TakePhotoButton",
+                    "printedName": "AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.TakePhotoButton",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonCAEycfc",
+                "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonCAEycfc",
+                "moduleName": "AutentikarPhotoIDScan",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC",
+            "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC04TakeB6ButtonC",
+            "moduleName": "AutentikarPhotoIDScan",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "inheritsConvenienceInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "CustomDebugStringConvertible",
                 "printedName": "CustomDebugStringConvertible",
                 "usr": "s:s28CustomDebugStringConvertibleP",
                 "mangledName": "$ss28CustomDebugStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
               }
             ]
           },
@@ -3470,38 +4464,10 @@
                     "conformances": [
                       {
                         "kind": "Conformance",
-                        "name": "Copyable",
-                        "printedName": "Copyable",
-                        "usr": "s:s8CopyableP",
-                        "mangledName": "$ss8CopyableP"
-                      },
-                      {
-                        "kind": "Conformance",
-                        "name": "Escapable",
-                        "printedName": "Escapable",
-                        "usr": "s:s9EscapableP",
-                        "mangledName": "$ss9EscapableP"
-                      },
-                      {
-                        "kind": "Conformance",
-                        "name": "Equatable",
-                        "printedName": "Equatable",
-                        "usr": "s:SQ",
-                        "mangledName": "$sSQ"
-                      },
-                      {
-                        "kind": "Conformance",
-                        "name": "Hashable",
-                        "printedName": "Hashable",
-                        "usr": "s:SH",
-                        "mangledName": "$sSH"
-                      },
-                      {
-                        "kind": "Conformance",
-                        "name": "CVarArg",
-                        "printedName": "CVarArg",
-                        "usr": "s:s7CVarArgP",
-                        "mangledName": "$ss7CVarArgP"
+                        "name": "_KeyValueCodingAndObserving",
+                        "printedName": "_KeyValueCodingAndObserving",
+                        "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                        "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
                       },
                       {
                         "kind": "Conformance",
@@ -3512,10 +4478,24 @@
                       },
                       {
                         "kind": "Conformance",
-                        "name": "_KeyValueCodingAndObserving",
-                        "printedName": "_KeyValueCodingAndObserving",
-                        "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-                        "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+                        "name": "CVarArg",
+                        "printedName": "CVarArg",
+                        "usr": "s:s7CVarArgP",
+                        "mangledName": "$ss7CVarArgP"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Copyable",
+                        "printedName": "Copyable",
+                        "usr": "s:s8CopyableP",
+                        "mangledName": "$ss8CopyableP"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "CustomDebugStringConvertible",
+                        "printedName": "CustomDebugStringConvertible",
+                        "usr": "s:s28CustomDebugStringConvertibleP",
+                        "mangledName": "$ss28CustomDebugStringConvertibleP"
                       },
                       {
                         "kind": "Conformance",
@@ -3526,10 +4506,24 @@
                       },
                       {
                         "kind": "Conformance",
-                        "name": "CustomDebugStringConvertible",
-                        "printedName": "CustomDebugStringConvertible",
-                        "usr": "s:s28CustomDebugStringConvertibleP",
-                        "mangledName": "$ss28CustomDebugStringConvertibleP"
+                        "name": "Equatable",
+                        "printedName": "Equatable",
+                        "usr": "s:SQ",
+                        "mangledName": "$sSQ"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Escapable",
+                        "printedName": "Escapable",
+                        "usr": "s:s9EscapableP",
+                        "mangledName": "$ss9EscapableP"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Hashable",
+                        "printedName": "Hashable",
+                        "usr": "s:SH",
+                        "mangledName": "$sSH"
                       }
                     ]
                   },
@@ -3576,38 +4570,10 @@
                 "conformances": [
                   {
                     "kind": "Conformance",
-                    "name": "Copyable",
-                    "printedName": "Copyable",
-                    "usr": "s:s8CopyableP",
-                    "mangledName": "$ss8CopyableP"
-                  },
-                  {
-                    "kind": "Conformance",
-                    "name": "Escapable",
-                    "printedName": "Escapable",
-                    "usr": "s:s9EscapableP",
-                    "mangledName": "$ss9EscapableP"
-                  },
-                  {
-                    "kind": "Conformance",
-                    "name": "Equatable",
-                    "printedName": "Equatable",
-                    "usr": "s:SQ",
-                    "mangledName": "$sSQ"
-                  },
-                  {
-                    "kind": "Conformance",
-                    "name": "Hashable",
-                    "printedName": "Hashable",
-                    "usr": "s:SH",
-                    "mangledName": "$sSH"
-                  },
-                  {
-                    "kind": "Conformance",
-                    "name": "CVarArg",
-                    "printedName": "CVarArg",
-                    "usr": "s:s7CVarArgP",
-                    "mangledName": "$ss7CVarArgP"
+                    "name": "_KeyValueCodingAndObserving",
+                    "printedName": "_KeyValueCodingAndObserving",
+                    "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                    "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
                   },
                   {
                     "kind": "Conformance",
@@ -3618,10 +4584,24 @@
                   },
                   {
                     "kind": "Conformance",
-                    "name": "_KeyValueCodingAndObserving",
-                    "printedName": "_KeyValueCodingAndObserving",
-                    "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-                    "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+                    "name": "CVarArg",
+                    "printedName": "CVarArg",
+                    "usr": "s:s7CVarArgP",
+                    "mangledName": "$ss7CVarArgP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "CustomDebugStringConvertible",
+                    "printedName": "CustomDebugStringConvertible",
+                    "usr": "s:s28CustomDebugStringConvertibleP",
+                    "mangledName": "$ss28CustomDebugStringConvertibleP"
                   },
                   {
                     "kind": "Conformance",
@@ -3632,10 +4612,24 @@
                   },
                   {
                     "kind": "Conformance",
-                    "name": "CustomDebugStringConvertible",
-                    "printedName": "CustomDebugStringConvertible",
-                    "usr": "s:s28CustomDebugStringConvertibleP",
-                    "mangledName": "$ss28CustomDebugStringConvertibleP"
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Hashable",
+                    "printedName": "Hashable",
+                    "usr": "s:SH",
+                    "mangledName": "$sSH"
                   }
                 ]
               },
@@ -3682,38 +4676,10 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CVarArg",
-                "printedName": "CVarArg",
-                "usr": "s:s7CVarArgP",
-                "mangledName": "$ss7CVarArgP"
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
               },
               {
                 "kind": "Conformance",
@@ -3724,10 +4690,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "_KeyValueCodingAndObserving",
-                "printedName": "_KeyValueCodingAndObserving",
-                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
               },
               {
                 "kind": "Conformance",
@@ -3738,10 +4718,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "CustomDebugStringConvertible",
-                "printedName": "CustomDebugStringConvertible",
-                "usr": "s:s28CustomDebugStringConvertibleP",
-                "mangledName": "$ss28CustomDebugStringConvertibleP"
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
               }
             ]
           },
@@ -3969,38 +4963,10 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CVarArg",
-                "printedName": "CVarArg",
-                "usr": "s:s7CVarArgP",
-                "mangledName": "$ss7CVarArgP"
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
               },
               {
                 "kind": "Conformance",
@@ -4011,10 +4977,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "_KeyValueCodingAndObserving",
-                "printedName": "_KeyValueCodingAndObserving",
-                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
               },
               {
                 "kind": "Conformance",
@@ -4025,10 +5005,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "CustomDebugStringConvertible",
-                "printedName": "CustomDebugStringConvertible",
-                "usr": "s:s28CustomDebugStringConvertibleP",
-                "mangledName": "$ss28CustomDebugStringConvertibleP"
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
               }
             ]
           },
@@ -4256,38 +5250,10 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CVarArg",
-                "printedName": "CVarArg",
-                "usr": "s:s7CVarArgP",
-                "mangledName": "$ss7CVarArgP"
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
               },
               {
                 "kind": "Conformance",
@@ -4298,10 +5264,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "_KeyValueCodingAndObserving",
-                "printedName": "_KeyValueCodingAndObserving",
-                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
               },
               {
                 "kind": "Conformance",
@@ -4312,10 +5292,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "CustomDebugStringConvertible",
-                "printedName": "CustomDebugStringConvertible",
-                "usr": "s:s28CustomDebugStringConvertibleP",
-                "mangledName": "$ss28CustomDebugStringConvertibleP"
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
               }
             ]
           },
@@ -4543,38 +5537,10 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CVarArg",
-                "printedName": "CVarArg",
-                "usr": "s:s7CVarArgP",
-                "mangledName": "$ss7CVarArgP"
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
               },
               {
                 "kind": "Conformance",
@@ -4585,10 +5551,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "_KeyValueCodingAndObserving",
-                "printedName": "_KeyValueCodingAndObserving",
-                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
               },
               {
                 "kind": "Conformance",
@@ -4599,10 +5579,24 @@
               },
               {
                 "kind": "Conformance",
-                "name": "CustomDebugStringConvertible",
-                "printedName": "CustomDebugStringConvertible",
-                "usr": "s:s28CustomDebugStringConvertibleP",
-                "mangledName": "$ss28CustomDebugStringConvertibleP"
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
               }
             ]
           },
@@ -4649,38 +5643,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -4691,10 +5657,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -4705,10 +5685,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -4870,114 +5864,261 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 381,
+      "offset": 366,
       "length": 5,
       "value": "2048"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1094,
+      "offset": 586,
+      "length": 28,
+      "value": "\"com.autentikar.videoOutput\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 678,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 728,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 783,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1525,
+      "length": 3,
+      "value": "2.5"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1563,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1701,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1809,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2201,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2261,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2466,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2505,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2535,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2717,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2746,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2768,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2930,
       "length": 7,
       "value": "\"xmark\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1282,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1571,
+      "offset": 3118,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1741,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2117,
+      "offset": 3589,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2177,
+      "offset": 3649,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2366,
+      "offset": 3838,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2408,
+      "offset": 3880,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2464,
+      "offset": 3936,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2474,
+      "offset": 3946,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2486,
+      "offset": 3958,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2497,
+      "offset": 3969,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2835,
+      "offset": 4307,
       "length": 23,
       "value": "\"autentikar.take_photo\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2965,
+      "offset": 4437,
       "length": 9,
       "value": "\"Capture\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3364,
+      "offset": 4836,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/CameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21042,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/DocumentDetectionLogic.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2975,
+      "length": 3,
+      "value": "-20"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/DocumentDetectionLogic.swift",
+      "kind": "FloatLiteral",
+      "offset": 3438,
+      "length": 4,
+      "value": "0.02"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/DocumentDetectionLogic.swift",
+      "kind": "FloatLiteral",
+      "offset": 3869,
+      "length": 4,
+      "value": "0.80"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/DocumentDetectionLogic.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3909,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/DocumentDetectionLogic.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4323,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Common\/ViewControllers\/CameraViewController\/DocumentDetectionLogic.swift",
+      "kind": "FloatLiteral",
+      "offset": 4363,
+      "length": 4,
+      "value": "0.80"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Configuration\/AutentikarPhotoIDScanConfiguration.swift",
@@ -5024,322 +6165,371 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 1601,
+      "offset": 1860,
       "length": 8,
       "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 2169,
+      "offset": 2428,
       "length": 8,
       "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 2468,
+      "offset": 2995,
       "length": 8,
       "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 3050,
-      "length": 8,
-      "value": "\"00B6D3\""
-    },
-    {
-      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
-      "kind": "StringLiteral",
-      "offset": 3431,
+      "offset": 3642,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 3464,
+      "offset": 3675,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 3586,
+      "offset": 3797,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 3648,
+      "offset": 3859,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 3933,
+      "offset": 4144,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 3966,
+      "offset": 4177,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 4026,
+      "offset": 4237,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 4606,
+      "offset": 4817,
       "length": 8,
       "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 5170,
+      "offset": 5381,
       "length": 8,
       "value": "\"041F30\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
+      "kind": "FloatLiteral",
+      "offset": 5764,
+      "length": 4,
+      "value": "0.55"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6032,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6291,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
+      "kind": "FloatLiteral",
+      "offset": 7097,
+      "length": 4,
+      "value": "0.30"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7373,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7384,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7643,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 5541,
+      "offset": 7918,
       "length": 8,
       "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 5830,
+      "offset": 8277,
+      "length": 8,
+      "value": "\"00B6D3\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
+      "kind": "StringLiteral",
+      "offset": 8566,
       "length": 23,
       "value": "\"autentikarCardIDFront\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 6140,
+      "offset": 8876,
       "length": 22,
       "value": "\"autentikarCardIDBack\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 6800,
+      "offset": 9536,
       "length": 8,
       "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 7198,
+      "offset": 9934,
       "length": 8,
       "value": "\"00B6D3\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8209,
+      "offset": 10945,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 8242,
+      "offset": 10978,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8380,
+      "offset": 11116,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8450,
+      "offset": 11186,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8783,
+      "offset": 11519,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 8816,
+      "offset": 11552,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 8884,
+      "offset": 11620,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 9706,
+      "offset": 12442,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 9740,
+      "offset": 12476,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 9862,
+      "offset": 12598,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 9925,
+      "offset": 12661,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 10210,
+      "offset": 12946,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 10244,
+      "offset": 12980,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 10304,
+      "offset": 13040,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 10921,
-      "length": 25,
-      "value": "\"PlusJakartaSans-Regular\""
+      "offset": 13657,
+      "length": 26,
+      "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 10954,
+      "offset": 13691,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11076,
-      "length": 25,
-      "value": "\"PlusJakartaSans-Regular\""
+      "offset": 13813,
+      "length": 26,
+      "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11138,
+      "offset": 13876,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11423,
-      "length": 25,
-      "value": "\"PlusJakartaSans-Regular\""
+      "offset": 14161,
+      "length": 26,
+      "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 11456,
+      "offset": 14195,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 11516,
+      "offset": 14255,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 12129,
+      "offset": 14868,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 12162,
+      "offset": 14901,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 12284,
+      "offset": 15023,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 12346,
+      "offset": 15085,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 12631,
+      "offset": 15370,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 12664,
+      "offset": 15403,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 12724,
+      "offset": 15463,
       "length": 2,
       "value": "16"
     },

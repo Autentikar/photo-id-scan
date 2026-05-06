@@ -1,9 +1,10 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
-// swift-module-flags: -target arm64-apple-ios15 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AutentikarPhotoIDScan
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios15 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AutentikarPhotoIDScan
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
 import AVFoundation
 import AutentikarCore
+import CoreGraphics
 import DeveloperToolsSupport
 import Foundation
 import Swift
@@ -58,6 +59,10 @@ import _SwiftConcurrencyShims
     @objc get
     @objc set
   }
+  @objc public var takePhotoButton: AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.TakePhotoButton {
+    @objc get
+    @objc set
+  }
   @objc public var closeIconColor: UIKit.UIColor {
     @objc get
     @objc set
@@ -72,15 +77,15 @@ import _SwiftConcurrencyShims
       @objc get
       @objc set
     }
-    @objc public var infoBackgroundColor: UIKit.UIColor {
-      @objc get
-      @objc set
-    }
     @objc public var infoTextColor: UIKit.UIColor {
       @objc get
       @objc set
     }
     @objc public var frameReferenceColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc public var statusHintText: AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.Text {
       @objc get
       @objc set
     }
@@ -105,6 +110,46 @@ import _SwiftConcurrencyShims
       @objc set
     }
     @objc public var disabledColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc override dynamic public init()
+  }
+  @_inheritsConvenienceInitializers @objc public class TakePhotoButton : ObjectiveC.NSObject {
+    @objc deinit
+    @objc public var borderColor: CoreGraphics.CGColor {
+      @objc get
+      @objc set
+    }
+    @objc public var cornerRadius: CoreFoundation.CGFloat {
+      @objc get
+      @objc set
+    }
+    @objc public var borderWidth: CoreFoundation.CGFloat {
+      @objc get
+      @objc set
+    }
+    @objc public var backgroundColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc public var shadowColor: CoreGraphics.CGColor {
+      @objc get
+      @objc set
+    }
+    @objc public var shadowOpacity: Swift.Float {
+      @objc get
+      @objc set
+    }
+    @objc public var shadowOffset: CoreFoundation.CGSize {
+      @objc get
+      @objc set
+    }
+    @objc public var shadowRadius: CoreFoundation.CGFloat {
+      @objc get
+      @objc set
+    }
+    @objc public var tintColor: UIKit.UIColor {
       @objc get
       @objc set
     }
