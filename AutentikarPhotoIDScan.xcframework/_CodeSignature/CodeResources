@@ -10,11 +10,11 @@
 		</data>
 		<key>ios-arm64/AutentikarPhotoIDScan.framework/AutentikarPhotoIDScan</key>
 		<data>
-		ECMhE2vyytINw67CD5QmiIDxXhY=
+		wyzmGNFJBvjQM4i0JNGF11o+yLA=
 		</data>
 		<key>ios-arm64/AutentikarPhotoIDScan.framework/Info.plist</key>
 		<data>
-		Xov1VbVsFihjRyOzw+53dgz+Lt8=
+		vhFD5JOahvnqRp5QIltB0yrZfas=
 		</data>
 		<key>ios-arm64/AutentikarPhotoIDScan.framework/Modules/AutentikarPhotoIDScan.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>ios-arm64/AutentikarPhotoIDScan.framework/_CodeSignature/CodeResources</key>
 		<data>
-		dvJaXCykIKqONrYRPOYs+4pM/tI=
+		SBr2q8qJd2PPW6w+sXhU3O4mObs=
 		</data>
 		<key>ios-arm64/AutentikarPhotoIDScan.framework/en.lproj/Localizable.strings</key>
 		<dict>
@@ -56,11 +56,11 @@
 		</dict>
 		<key>ios-arm64/dSYMs/AutentikarPhotoIDScan.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		z71jRItwYa7SvYXUjTVwuKSzlvE=
+		lu5Y2t+u2ePehIdW94XMJKqvnMQ=
 		</data>
 		<key>ios-arm64/dSYMs/AutentikarPhotoIDScan.framework.dSYM/Contents/Resources/DWARF/AutentikarPhotoIDScan</key>
 		<data>
-		f0fN/Vgyla0qvoMAfD8GqfFZMYM=
+		K8Wtc+8+ZfCVx8/5B9egIlGIs9Q=
 		</data>
 		<key>ios-arm64/dSYMs/AutentikarPhotoIDScan.framework.dSYM/Contents/Resources/Relocations/aarch64/AutentikarPhotoIDScan.yml</key>
 		<data>
@@ -68,7 +68,97 @@
 		</data>
 		<key>ios-arm64/dSYMs/AutentikarPhotoIDScan.framework.dSYM/Contents/Resources/Swift/aarch64/AutentikarCore.swiftinterface</key>
 		<data>
-		wYelPzMYcH+XvtkTjxw/OQOGLe8=
+		Ot38Mtjk6CN84yh+r38SBGIXi98=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Assets.car</key>
+		<data>
+		vpkoPc4dITltxccC4YsTdk4Sc0E=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/AutentikarPhotoIDScan</key>
+		<data>
+		/E74vCnAJ8JISDalkXibiyfN38I=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Info.plist</key>
+		<data>
+		ggn4gNGAMwHtCupbYhmTy/lQnhE=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Modules/AutentikarPhotoIDScan.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		4ptiHtMmPd6B4sujat7HfDK6Haw=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Modules/AutentikarPhotoIDScan.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		GRrTeUuDpnXrU501uq+7s4MPuw8=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Modules/AutentikarPhotoIDScan.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		Xekgf7E44avrNNgeBf7xR85+TKE=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Modules/AutentikarPhotoIDScan.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		GRrTeUuDpnXrU501uq+7s4MPuw8=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Modules/AutentikarPhotoIDScan.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		4ptiHtMmPd6B4sujat7HfDK6Haw=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Modules/AutentikarPhotoIDScan.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		BN6GGAtdT3TMKReT89uxO1vR80U=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Modules/AutentikarPhotoIDScan.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		Z5VEAbQfxE0R+CCtOPG2vyoaoFo=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Modules/AutentikarPhotoIDScan.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		BN6GGAtdT3TMKReT89uxO1vR80U=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/_CodeSignature/CodeResources</key>
+		<data>
+		qoNi2LybedKg4b0ZgbHhS16qABQ=
+		</data>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7B3HF8Lpxfu8ruZa6xMktQeP46E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Fizm4nErQwa2Y5RZbYr5ycvSbuA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/AutentikarPhotoIDScan.framework.dSYM/Contents/Info.plist</key>
+		<data>
+		lu5Y2t+u2ePehIdW94XMJKqvnMQ=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/AutentikarPhotoIDScan.framework.dSYM/Contents/Resources/DWARF/AutentikarPhotoIDScan</key>
+		<data>
+		LNmQgpkvlQ3mVgwNMBPcfe+Fh2c=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/AutentikarPhotoIDScan.framework.dSYM/Contents/Resources/Relocations/aarch64/AutentikarPhotoIDScan.yml</key>
+		<data>
+		eHC24O6I+7Htq8gLh2iWCFJaKfw=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/AutentikarPhotoIDScan.framework.dSYM/Contents/Resources/Relocations/x86_64/AutentikarPhotoIDScan.yml</key>
+		<data>
+		MxRDqPPf8iQZnAJakLL5YivY1jo=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/AutentikarPhotoIDScan.framework.dSYM/Contents/Resources/Swift/aarch64/AutentikarCore.swiftinterface</key>
+		<data>
+		EUmE3+I8UUpLnSXGp4N9T6puJXw=
+		</data>
+		<key>ios-arm64_x86_64-simulator/dSYMs/AutentikarPhotoIDScan.framework.dSYM/Contents/Resources/Swift/x86_64/AutentikarCore.swiftinterface</key>
+		<data>
+		+CY3ZDrx/UWKks/d5T40SZvofPM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -84,14 +174,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FVgacHjJgLrnANRVCDCrxw4luu0sUxN4einCD4FPwG8=
+			woYKMyDk7Xiu49Lx11moV5R7IMhH7lPz6YQ2WrDaBMI=
 			</data>
 		</dict>
 		<key>ios-arm64/AutentikarPhotoIDScan.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B/1FDeg1s1C7afBoetWqjc1C4ZEahRtz0e+RHiSnpfM=
+			yVgoBVL4RNYAlMewxQroBRlXx8o4C49Yc7hRkYg2TkQ=
 			</data>
 		</dict>
 		<key>ios-arm64/AutentikarPhotoIDScan.framework/Modules/AutentikarPhotoIDScan.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -126,7 +216,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2c/PmLMtc6TACfgSUf3/dRfi7QXu8BlenwIIInvvzZk=
+			SPflny0PeS0fjSgbQDz7E0PRcffJHjWmbysaRLt6IjY=
 			</data>
 		</dict>
 		<key>ios-arm64/AutentikarPhotoIDScan.framework/en.lproj/Localizable.strings</key>
@@ -151,14 +241,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OTGcONuXNt5Txdh98sitGngAH4Azlcv5hDoZUCEtAYA=
+			YtyRvJxoigPaADDebM31lGFZlk8zuznEsGF7QKuaMts=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/AutentikarPhotoIDScan.framework.dSYM/Contents/Resources/DWARF/AutentikarPhotoIDScan</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3R5H8C0BIQY+dzLke283+1cbdZwOM01ALtO5jPLQZ+4=
+			dES3vx5fSYC4qzWkFh+Ejm+bwQDQgYIezPFXneZmuj4=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/AutentikarPhotoIDScan.framework.dSYM/Contents/Resources/Relocations/aarch64/AutentikarPhotoIDScan.yml</key>
@@ -172,7 +262,151 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tPCYkmz0DAEGZlB0IE4i2twdd33kilQSXSHf1qG+cos=
+			NAdeM7CW0mECyBy1moSosy5LAqMEQA+fHKjZYvzLpj8=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cDDe5pnV868qDQTdUBE3FWbDbr/OD8lZv3bLfXbbvXQ=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/AutentikarPhotoIDScan</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			x0R6E6fmDFL5c8GO5DZd2LyjZ4b1bz7nGA87ikrrYqI=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SWfCGZquyHIyUUBkR2j2BYcFfJVGjYzGXbRzOeox01w=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Modules/AutentikarPhotoIDScan.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ihdgf9ZoXmySSdjSRJXHBc2gSU2YJWRwDf7SDCZAq9s=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Modules/AutentikarPhotoIDScan.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jJCbpr1I+0bLBcrnuVqWb235Apmo76bPBzbHOX4Y77M=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Modules/AutentikarPhotoIDScan.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3UPYt3fZ2o36jsurtH74mEUxnnSl0VcokbadXgQAjIc=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Modules/AutentikarPhotoIDScan.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jJCbpr1I+0bLBcrnuVqWb235Apmo76bPBzbHOX4Y77M=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Modules/AutentikarPhotoIDScan.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ihdgf9ZoXmySSdjSRJXHBc2gSU2YJWRwDf7SDCZAq9s=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Modules/AutentikarPhotoIDScan.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZB+rgNIAhJa335wW9hL54Wi2kX0kdYRiOOk1Tbp17Sk=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Modules/AutentikarPhotoIDScan.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5pnxlCMOAHu4zUyo4EbC/KyhgDHfs/GMcD2KbnMqRcY=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/Modules/AutentikarPhotoIDScan.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZB+rgNIAhJa335wW9hL54Wi2kX0kdYRiOOk1Tbp17Sk=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i7f9CAoxamTRIVnlDY8RKEd9k7RnSpVSV+J1SGVIAe4=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aPsLQZ4gsx5SWiKYbbiKiXdz4bylIW+HtOq1+XL2o5A=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/AutentikarPhotoIDScan.framework/es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6VHPTAC2eXq+DFZSL57nbQdMeoB65fd+VtSHTFhv0YU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/AutentikarPhotoIDScan.framework.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YtyRvJxoigPaADDebM31lGFZlk8zuznEsGF7QKuaMts=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/AutentikarPhotoIDScan.framework.dSYM/Contents/Resources/DWARF/AutentikarPhotoIDScan</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			n31yYq9lfzUAqmw5ghsVHX8EYiwWizmJuOpeoMVb92U=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/AutentikarPhotoIDScan.framework.dSYM/Contents/Resources/Relocations/aarch64/AutentikarPhotoIDScan.yml</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dZZeVBKcnTYaVpkg/gaahyr1pe3baQPhpN3DACxqyDM=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/AutentikarPhotoIDScan.framework.dSYM/Contents/Resources/Relocations/x86_64/AutentikarPhotoIDScan.yml</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pfVYwZSbnWzT6THY9tVP8FWsIZth9NVfQXg3Cm0hzJs=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/AutentikarPhotoIDScan.framework.dSYM/Contents/Resources/Swift/aarch64/AutentikarCore.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GOh4XjyFEjfh3oIdTcxg7ZhGW623G9WOTl5GSEXV+44=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/dSYMs/AutentikarPhotoIDScan.framework.dSYM/Contents/Resources/Swift/x86_64/AutentikarCore.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YG/B0zvcSlwENl9IKijQwF2yMzSbo6Ep7cMvGc4qvAU=
 			</data>
 		</dict>
 	</dict>

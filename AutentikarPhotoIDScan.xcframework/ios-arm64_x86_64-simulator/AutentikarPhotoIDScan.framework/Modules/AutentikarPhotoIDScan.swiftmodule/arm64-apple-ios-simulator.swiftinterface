@@ -1,0 +1,247 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios15-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AutentikarPhotoIDScan
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2
+import AVFoundation
+import AutentikarCore
+import CoreGraphics
+import DeveloperToolsSupport
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import Vision
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers public class AutentikarPhotoIDScanManager : ObjectiveC.NSObject {
+  @objc deinit
+  @objc public static let shared: AutentikarPhotoIDScan.AutentikarPhotoIDScanManager
+  @objc public func setCustomization(_ customization: AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization)
+  @objc public func setProtocol(_ step: AutentikarCore.AutentikarStepType) -> any AutentikarCore.AutentikarStepRouterProtocol
+  @objc override dynamic public init()
+}
+
+
+@_inheritsConvenienceInitializers @objc public class AutentikarPhotoIDScanConfiguration : ObjectiveC.NSObject {
+  public static var shared: AutentikarPhotoIDScan.AutentikarPhotoIDScanConfiguration
+  @objc override dynamic public init()
+  @objc deinit
+  @objc public var info: Swift.Bool
+  @objc public var bundle: Foundation.Bundle {
+    @objc get
+    @objc set
+  }
+}
+@_inheritsConvenienceInitializers @objc public class AutentikarPhotoIDScanCustomization : ObjectiveC.NSObject {
+  @objc deinit
+  @objc public var backgroundColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc public var title: AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.Title {
+    @objc get
+    @objc set
+  }
+  @objc public var subTitle: AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.SubTitle {
+    @objc get
+    @objc set
+  }
+  @objc public var text: AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.Text {
+    @objc get
+    @objc set
+  }
+  @objc public var contentCard: AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.ContentCard {
+    @objc get
+    @objc set
+  }
+  @objc public var button: AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.Button {
+    @objc get
+    @objc set
+  }
+  @objc public var takePhotoButton: AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.TakePhotoButton {
+    @objc get
+    @objc set
+  }
+  @objc public var closeIconColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc public var cameraScreen: AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.CameraScreen {
+    @objc get
+    @objc set
+  }
+  @_inheritsConvenienceInitializers @objc public class CameraScreen : ObjectiveC.NSObject {
+    @objc deinit
+    @objc public var closeIconColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc public var infoTextColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc public var frameReferenceColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc public var statusHintText: AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.Text {
+      @objc get
+      @objc set
+    }
+    @objc override dynamic public init()
+  }
+  @_inheritsConvenienceInitializers @objc public class Button : ObjectiveC.NSObject {
+    @objc deinit
+    @objc public var font: UIKit.UIFont {
+      @objc get
+      @objc set
+    }
+    @objc public var activeTextColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc public var activeColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc public var disableTextColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc public var disabledColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc override dynamic public init()
+  }
+  @_inheritsConvenienceInitializers @objc public class TakePhotoButton : ObjectiveC.NSObject {
+    @objc deinit
+    @objc public var borderColor: CoreGraphics.CGColor {
+      @objc get
+      @objc set
+    }
+    @objc public var cornerRadius: CoreFoundation.CGFloat {
+      @objc get
+      @objc set
+    }
+    @objc public var borderWidth: CoreFoundation.CGFloat {
+      @objc get
+      @objc set
+    }
+    @objc public var backgroundColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc public var shadowColor: CoreGraphics.CGColor {
+      @objc get
+      @objc set
+    }
+    @objc public var shadowOpacity: Swift.Float {
+      @objc get
+      @objc set
+    }
+    @objc public var shadowOffset: CoreFoundation.CGSize {
+      @objc get
+      @objc set
+    }
+    @objc public var shadowRadius: CoreFoundation.CGFloat {
+      @objc get
+      @objc set
+    }
+    @objc public var tintColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc override dynamic public init()
+  }
+  @_inheritsConvenienceInitializers @objc public class ContentCard : ObjectiveC.NSObject {
+    @objc deinit
+    @objc public var reintentIconColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc public var cardIDFrontImageName: Swift.String {
+      @objc get
+      @objc set
+    }
+    @objc public var cardIDBackImageName: Swift.String {
+      @objc get
+      @objc set
+    }
+    @objc public var overlayActionContent: AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.ContentCard.OverlayActionContent {
+      @objc get
+      @objc set
+    }
+    @objc public var dashedLineColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @_inheritsConvenienceInitializers @objc public class OverlayActionContent : ObjectiveC.NSObject {
+      @objc deinit
+      @objc public var backgroundColor: UIKit.UIColor {
+        @objc get
+        @objc set
+      }
+      @objc public var iconColor: UIKit.UIColor {
+        @objc get
+        @objc set
+      }
+      @objc public var text: AutentikarPhotoIDScan.AutentikarPhotoIDScanCustomization.ContentCard.OverlayActionContent.Text {
+        @objc get
+        @objc set
+      }
+      @_inheritsConvenienceInitializers @objc public class Text : ObjectiveC.NSObject {
+        @objc deinit
+        @objc public var font: UIKit.UIFont {
+          @objc get
+          @objc set
+        }
+        @objc public var color: UIKit.UIColor {
+          @objc get
+          @objc set
+        }
+        @objc override dynamic public init()
+      }
+      @objc override dynamic public init()
+    }
+    @objc override dynamic public init()
+  }
+  @_inheritsConvenienceInitializers @objc public class Title : ObjectiveC.NSObject {
+    @objc deinit
+    @objc public var font: UIKit.UIFont {
+      @objc get
+      @objc set
+    }
+    @objc public var color: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc override dynamic public init()
+  }
+  @_inheritsConvenienceInitializers @objc public class SubTitle : ObjectiveC.NSObject {
+    @objc deinit
+    @objc public var font: UIKit.UIFont {
+      @objc get
+      @objc set
+    }
+    @objc public var color: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc override dynamic public init()
+  }
+  @_inheritsConvenienceInitializers @objc public class Text : ObjectiveC.NSObject {
+    @objc deinit
+    @objc public var font: UIKit.UIFont {
+      @objc get
+      @objc set
+    }
+    @objc public var color: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc override dynamic public init()
+  }
+  @objc override dynamic public init()
+}
