@@ -744,6 +744,7 @@
         "declKind": "Import",
         "moduleName": "AutentikarPhotoIDScan",
         "declAttributes": [
+          "SPIAccessControl",
           "RawDocComment"
         ]
       },
@@ -778,6 +779,7 @@
         "declKind": "Import",
         "moduleName": "AutentikarPhotoIDScan",
         "declAttributes": [
+          "SPIAccessControl",
           "RawDocComment"
         ]
       },
@@ -2511,6 +2513,94 @@
                     "declKind": "Accessor",
                     "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC6ButtonC13disabledColorSo7UIColorCvM",
                     "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC6ButtonC13disabledColorSo7UIColorCvM",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "cornerRadius",
+                "printedName": "cornerRadius",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC6ButtonC12cornerRadius14CoreFoundation7CGFloatVvp",
+                "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC6ButtonC12cornerRadius12CoreGraphics7CGFloatVvp",
+                "moduleName": "AutentikarPhotoIDScan",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC6ButtonC12cornerRadius14CoreFoundation7CGFloatVvg",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC6ButtonC12cornerRadius12CoreGraphics7CGFloatVvg",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC6ButtonC12cornerRadius14CoreFoundation7CGFloatVvs",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC6ButtonC12cornerRadius12CoreGraphics7CGFloatVvs",
+                    "moduleName": "AutentikarPhotoIDScan",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21AutentikarPhotoIDScan0abC13CustomizationC6ButtonC12cornerRadius14CoreFoundation7CGFloatVvM",
+                    "mangledName": "$s21AutentikarPhotoIDScan0abC13CustomizationC6ButtonC12cornerRadius12CoreGraphics7CGFloatVvM",
                     "moduleName": "AutentikarPhotoIDScan",
                     "implicit": true,
                     "accessorKind": "_modify"
@@ -5760,6 +5850,7 @@
         "declKind": "Import",
         "moduleName": "AutentikarPhotoIDScan",
         "declAttributes": [
+          "SPIAccessControl",
           "RawDocComment"
         ]
       },
@@ -6248,288 +6339,295 @@
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5643,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "FloatLiteral",
-      "offset": 5764,
+      "offset": 6008,
       "length": 4,
       "value": "0.55"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 6032,
+      "offset": 6276,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 6291,
+      "offset": 6535,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "FloatLiteral",
-      "offset": 7097,
+      "offset": 7341,
       "length": 4,
       "value": "0.30"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 7373,
+      "offset": 7617,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 7384,
+      "offset": 7628,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 7643,
+      "offset": 7887,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 7918,
+      "offset": 8162,
       "length": 8,
       "value": "\"082C4C\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8277,
+      "offset": 8521,
       "length": 8,
       "value": "\"082C4C\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8566,
+      "offset": 8810,
       "length": 23,
       "value": "\"autentikarCardIDFront\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 8876,
+      "offset": 9120,
       "length": 22,
       "value": "\"autentikarCardIDBack\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 9536,
+      "offset": 9780,
       "length": 8,
       "value": "\"082C4C\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 9934,
+      "offset": 10178,
       "length": 8,
       "value": "\"082C4C\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 10945,
+      "offset": 11189,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 10978,
+      "offset": 11222,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11116,
+      "offset": 11360,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11186,
+      "offset": 11430,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 11519,
+      "offset": 11763,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 11552,
+      "offset": 11796,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 11620,
+      "offset": 11864,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 12442,
+      "offset": 12686,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 12476,
+      "offset": 12720,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 12598,
+      "offset": 12842,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 12661,
+      "offset": 12905,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 12946,
+      "offset": 13190,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 12980,
+      "offset": 13224,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 13040,
+      "offset": 13284,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 13657,
+      "offset": 13901,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 13691,
+      "offset": 13935,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 13813,
+      "offset": 14057,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 13876,
+      "offset": 14120,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 14161,
+      "offset": 14405,
       "length": 26,
       "value": "\"PlusJakartaSans-SemiBold\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 14195,
+      "offset": 14439,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 14255,
+      "offset": 14499,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 14868,
+      "offset": 15112,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 14901,
+      "offset": 15145,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 15023,
+      "offset": 15267,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 15085,
+      "offset": 15329,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 15370,
+      "offset": 15614,
       "length": 25,
       "value": "\"PlusJakartaSans-Regular\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 15403,
+      "offset": 15647,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-v2\/ios\/modules\/AutentikarPhotoIDScan\/AutentikarPhotoIDScan\/Utilities\/Customizations\/AutentikarPhotoIDScanCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 15463,
+      "offset": 15707,
       "length": 2,
       "value": "16"
     },

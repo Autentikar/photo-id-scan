@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nei7aTwnFE+LNVa5bzmYJHxMyV4=
+		QwE4FkqLrjX6zmcnpCxpqB//toM=
 		</data>
 		<key>Modules/AutentikarPhotoIDScan.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		1NE2Pla9kP+5WCGcEbWkbKUO28A=
+		STsRVgPCg2QHYuXb3hODC+pWAnM=
 		</data>
 		<key>Modules/AutentikarPhotoIDScan.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		819n/yiL0vVrLYQuDLUzdXZ4b7A=
+		qP3jVBsAyX1bWQOiPOkoHpV6d08=
 		</data>
 		<key>Modules/AutentikarPhotoIDScan.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/AutentikarPhotoIDScan.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		819n/yiL0vVrLYQuDLUzdXZ4b7A=
+		pIiTRe3TB9s63ymTBIPwvaN6xh4=
 		</data>
 		<key>Modules/AutentikarPhotoIDScan.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		9i5r9Y2POYyzewgvfd4opoNf21E=
+		rs2jjuN5PI0gq8iZCdDqH5jyM+M=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -64,14 +64,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f9eqPVRvfwMAoLC94gib/OHM0+3QOXyyfmXcrIUJQvE=
+			nWUS5aUG42RUPo8Gs2lIC/P1EO6u2zNTN9xihLmDaF4=
 			</data>
 		</dict>
 		<key>Modules/AutentikarPhotoIDScan.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bLxzWKklzloXzr6E/vDSmnBWGXPqqxEvINatGEOmu2w=
+			CN/2W0gpif6zgsT/z1A6kxnusnAksZfo16XxakKYdZ8=
 			</data>
 		</dict>
 		<key>Modules/AutentikarPhotoIDScan.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -85,14 +85,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bLxzWKklzloXzr6E/vDSmnBWGXPqqxEvINatGEOmu2w=
+			mdi3v8w59Cp6ZgKnHdj0c+WKY1PV10BQXyFfFj7P33k=
 			</data>
 		</dict>
 		<key>Modules/AutentikarPhotoIDScan.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bYIUJzrXiey3D39vwYr48OJ/T0MyiXDcKXZr3EFaFqg=
+			zlnL7FwNNIAzeQ/q2TZT81uQVh57M47BON1i7lijpLI=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>

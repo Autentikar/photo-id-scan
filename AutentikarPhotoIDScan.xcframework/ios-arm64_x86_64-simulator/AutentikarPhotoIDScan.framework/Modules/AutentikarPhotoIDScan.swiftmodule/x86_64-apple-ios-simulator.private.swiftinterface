@@ -3,7 +3,7 @@
 // swift-module-flags: -target x86_64-apple-ios15-simulator -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AutentikarPhotoIDScan
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
 import AVFoundation
-import AutentikarCore
+@_spi(AutentikarInternal) import AutentikarCore
 import CoreGraphics
 import DeveloperToolsSupport
 import Foundation
@@ -110,6 +110,10 @@ import _SwiftConcurrencyShims
       @objc set
     }
     @objc public var disabledColor: UIKit::UIColor {
+      @objc get
+      @objc set
+    }
+    @objc public var cornerRadius: CoreFoundation::CGFloat {
       @objc get
       @objc set
     }

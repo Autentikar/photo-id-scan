@@ -113,6 +113,10 @@ import _SwiftConcurrencyShims
       @objc get
       @objc set
     }
+    @objc public var cornerRadius: CoreFoundation::CGFloat {
+      @objc get
+      @objc set
+    }
     @objc override dynamic public init()
   }
   @_inheritsConvenienceInitializers @objc public class TakePhotoButton : ObjectiveC::NSObject {
